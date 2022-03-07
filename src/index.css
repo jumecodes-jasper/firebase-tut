@@ -1,13 +1,55 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.input_view{
+  padding-bottom: 20px;
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.input_view input, .input_view select{
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1.5px solid #ddd;
+  background: seashell;
+}
+
+.input_view button{
+  border: 0;
+  padding: 8px;
+  background: #f1356d;
+  color: #fff;
+  border-radius: 8px;
+  margin-left: 2px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.content{
+  background: seashell;
+  padding: 6px;
+  display: block;
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1.5px solid #ddd;
+  border-radius: 16px;
+}
+
+.content button{
+  border: 0;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  background: #f1356d;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #ddd;
 }
