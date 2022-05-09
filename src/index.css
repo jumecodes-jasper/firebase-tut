@@ -7,10 +7,14 @@
 }
 
 .input_view{
-  padding-bottom: 20px;
-  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
   width: 100%;
   text-align: center;
+}
+
+#inp1{
+  margin-right: 3px;
 }
 
 .input_view input, .input_view select{
@@ -31,25 +35,36 @@
   border: 1px solid #ddd;
 }
 
+.container{ 
+  max-width: 1000px; 
+  margin: 10px auto;
+  padding-left: 10px; 
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; 
+  align-items: center;
+}
+
 .content{
   background: seashell;
   padding: 6px;
-  display: block;
-  float: left;
-  text-align: center;
-  margin-right: 10px;
+  width: 230px;
+  height: 133px;
+  font-size: 13px;
+  margin-left: 10px;
   margin-bottom: 10px;
   border: 1.5px solid #ddd;
   border-radius: 16px;
+  box-sizing: border-box;
 }
 
 .content button{
   border: 0;
   padding: 5px;
-  margin-bottom: 5px;
   border-radius: 8px;
   background: #f1356d;
   color: #fff;
   cursor: pointer;
   border: 1px solid #ddd;
+  font-size: 14px;
 }
